@@ -106,10 +106,10 @@ rm -f ackbaixar.sh* ackhttp-instalar.sh* >/dev/null 2>&1
 # Verifica a arquitetura do sistema armazenada na variável 'arquitetura_sys'
 if [[ "$arquitetura_sys" == "AMD64" || "$arquitetura_sys" == "AMD32" ]]; then
     # Para sistemas AMD64 ou AMD32, baixa o script de instalação do AckHttp
-    wget --timestamping --content-disposition -q "https://www.dropbox.com/scl/fi/kcsokt8zsy2tzfv8408qi/ackhttp-instalar.sh?rlkey=kvekyv6c2nppl9w5yra7h45t5&st=ftcrp4ih&dl=0"
+    wget --timestamping --content-disposition -q "https://www.dropbox.com/scl/fi/t1axkwjzl4emdfjwmh452/ackhttp-instalar.sh?rlkey=g1flnvm0dhzgs0xnjqdzmd3zu&st=945bts38&dl=0"
 elif [[ "$arquitetura_sys" == "ARM" ]]; then
     # Para sistemas ARM, baixa a versão correspondente do script de instalação
-    wget --timestamping --content-disposition -q "https://www.dropbox.com/scl/fi/sl6ycbgulpv4a2crg8dsr/ackhttp-instalar-2.sh?rlkey=99qfkamz607u7ortcoauivry5&st=1hh2suqq&dl=0"
+    wget --timestamping --content-disposition -q "https://www.dropbox.com/scl/fi/zqdecsxnpvg64a15yrmdp/ackhttp-instalar.sh?rlkey=gy7241qcvboler6d1alf0147e&st=b6xil659&dl=0"
 fi
 
 # Torna o script de instalação executável
